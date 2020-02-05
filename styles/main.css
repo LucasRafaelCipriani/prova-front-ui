@@ -1,0 +1,44 @@
+.search-bar {
+  width: 50%;
+  margin: auto;
+  padding: 10px 0 20px;
+}
+
+.results-table {
+  margin-top: 35px;
+}
+
+.results-table .public {
+  margin: 15px 0;
+}
+
+.results-table .user-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.results-table .user-btns .btn-repos {
+  width: 30%;
+}
+
+.results-table .user-btns .btn-starred {
+  width: 30%;
+  margin-left: 15px;
+}
+
+.repos-table {
+  margin-top: 35px;
+}
+
+@media (max-width: 576px) {
+  .user-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .repos-table {
+    background: linear-gradient(to right, #fff 20%, rgba(0, 0, 0, 0)), linear-gradient(to right, rgba(0, 0, 0, 0), #fff 80%) 0 100%, linear-gradient(to right, #000, rgba(0, 0, 0, 0) 20%), linear-gradient(to left, #000, rgba(0, 0, 0, 0) 20%);
+    background-attachment: local, local, scroll, scroll;
+  }
+}
