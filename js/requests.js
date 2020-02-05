@@ -1,7 +1,7 @@
 class Requests {
   constructor() {
     this.url = 'https://api.github.com';
-    this.auth = 'token 8031989702a0a11352c58d38ee4d4bd4dff7de06';
+    this.auth = 'token {{SEU_TOKEN_DE_API}}';
   }
 
   getUsers(query) {

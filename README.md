@@ -12,13 +12,7 @@
 
 Apos isso, o aplicativo sera aberto no browser no endereco localhost:3000
 
-## Rodar testes
-
-Rotina simples de testes do próprio React
-
-    $ npm run test
-
-E siga os passos que o console disponibilizar
+Caso seja necessario utilize o seu token de API do Github para poder usar os endpoints
 
 ## Tecnologias utilizadas
 
